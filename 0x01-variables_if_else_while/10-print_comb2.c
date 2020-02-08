@@ -7,20 +7,17 @@
 int main(void)
 
 {
-int i;
-int j;
-
-for (i = 48; i < 58; i++)
+int x = 0;
+for (x = 0; x < 100; x++)
 {
-for (j = 48; j < 58; j++)
+putchar((x / 10) + '0');
+putchar((x % 10) + '0');
+if (x < 99)
 {
-putchar(i);
-putchar(j);
-if (!(i == 57 && j == 57))
-putchar(44);
-putchar(32);
+putchar(',');
+putchar(' ');
 }
 }
-putchar(10);
+putchar('\n');
 return (0);
 }
