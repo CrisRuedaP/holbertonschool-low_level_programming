@@ -20,6 +20,6 @@ putchar(44);
 putchar(32);
 }
 }
-putchar('\n');
+putchar(10);
 return (0);
 }
