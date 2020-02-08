@@ -7,19 +7,20 @@
 int main(void)
 
 {
-int x;
-int y;
-for (x = 48; x < 58; x++)
+int i;
+int j;
+
+for (i = 48; i < 58; i++)
 {
-for (y = 48; y < 58; y++)
+for (j = 48; j < 58; j++)
 {
-putchar(x);
-putchar(y);
-if (!(x == 57 && y == 57))
-putchar(44);
-putchar(32);
-putchar(10);
+putchar(i);
+putchar(j);
+if (!(i == 57 && j == 57))
+putchar(',');
+putchar(' ');
 }
 }
+putchar('\n');
 return (0);
 }
