@@ -8,14 +8,18 @@ int main(void)
 
 {
 int x;
-for (x = 0; x < 100; x++)
+int y;
+for (x = 48; x < 58; x++)
 {
-putchar((x / 10) + '0');
-putchar((x % 10) + '0');
-if (x != 99)
-putchar(',');
-putchar(' ');
-putchar('\n');
+for (y = 48; y < 58; y++)
+{
+putchar(x);
+putchar(y);
+if (!(x == 57 && y == 57))
+putchar(44);
+putchar(32);
 }
+}
+putchar('\n');
 return (0);
 }
