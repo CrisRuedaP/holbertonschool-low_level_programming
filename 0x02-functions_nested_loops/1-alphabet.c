@@ -1,5 +1,4 @@
 #include "holberton.h"
-void print_alphabet(void);
 /**
  * main - check the code for Holberton School students.
  *
@@ -8,7 +7,7 @@ void print_alphabet(void);
 int main(void)
 {
 int x;
-
+void print_aphabet(void);
 for (x = 'a'; x <= 'z'; x++)
 {
 _putchar(x);
