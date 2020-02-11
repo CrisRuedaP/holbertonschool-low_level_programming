@@ -1,6 +1,7 @@
 #include "holberton.h"
 /**
- * islower - checks for lowercase.
+ * _islower - checks for lowercase.
+ * @c: - variable declaration
  * Return: Always 0.
  */
 int _islower(int c)
@@ -13,5 +14,4 @@ else
 {
 return (0);
 }
-_putchar('\n');
 }
