@@ -15,7 +15,7 @@ if (n == 0)
 _putchar('0' + n);
 return (n);
 }
-else if (n >= 0)
+else if (n > 0)
 {
 _putchar('0' + m);
 return (n);
