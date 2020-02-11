@@ -9,15 +9,14 @@ int print_last_digit(int n)
 int m = (n % 10);
 int p = (m * -1);
 
-
-if (n == 0)
-{
-_putchar('0' + n);
-return (n);
-}
-else if (n > 0)
+if (n > 0)
 {
 _putchar('0' + m);
+return (n);
+}
+else if (n == 0)
+{
+_putchar('0' + n);
 return (n);
 }
 else
