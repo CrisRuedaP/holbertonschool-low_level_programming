@@ -12,7 +12,7 @@ int p = (m * -1);
 if (n > 0)
 {
 _putchar('0' + m);
-return (n);
+return (m);
 }
 else if (n == 0)
 {
