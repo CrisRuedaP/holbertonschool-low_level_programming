@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * main - Entry point.
  *
- * Return: On success 1.
+ * Return: Always (Success)
  */
 void print_alphabet(void)
 {
