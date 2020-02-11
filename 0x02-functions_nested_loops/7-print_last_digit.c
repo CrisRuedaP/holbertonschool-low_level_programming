@@ -13,16 +13,16 @@ int p = (m * -1);
 if (n == 0)
 {
 _putchar('0' + n);
-return(n);
+return (n);
 }
 else if (n >= 0)
 {
 _putchar('0' + m);
-return(n);
+return (n);
 }
 else
 {
 _putchar('0' + p);
-return(p);
+return (p);
 }
 }
