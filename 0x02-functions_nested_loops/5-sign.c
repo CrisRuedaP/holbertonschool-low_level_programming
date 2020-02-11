@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _print_sign - checks for signs.
+ * print_sign - checks for signs.
  * @n: - variable declaration
  * Return: Always 0.
  */
