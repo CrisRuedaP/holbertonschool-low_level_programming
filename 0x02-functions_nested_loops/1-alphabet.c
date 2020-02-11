@@ -1,8 +1,7 @@
 #include "holberton.h"
 /**
- * main - Entry point.
- *
- * Return: Always (Success)
+ * print_alphabet - lowercase
+ * Return: On success return 0
  */
 void print_alphabet(void)
 {
