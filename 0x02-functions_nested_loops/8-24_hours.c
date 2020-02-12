@@ -1,8 +1,9 @@
 #include "holberton.h"
 /**
- * jack_bauer - 24/8
+ * jack_bauer - Every minute
  * @h: - variable hour
  * @m: - variable minutes
+ *
  * Return: On success return 0
  */
 void jack_bauer(void)
