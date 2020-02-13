@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * printf - causes an infinite loop
+ * while - causes an infinite loop
  * Return: 0
  */
 
