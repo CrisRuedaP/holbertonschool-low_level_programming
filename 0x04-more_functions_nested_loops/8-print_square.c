@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * print_line - draws a straight
- * size - variable
+ * @size: - variable
  * Return: Always 0
  */
 void print_square(int size)
