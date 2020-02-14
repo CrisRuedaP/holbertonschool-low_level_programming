@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * print_line - draws a straight
+ * print_square - draws a straight
  * @size: variable
  * Return: Always 0
  */
