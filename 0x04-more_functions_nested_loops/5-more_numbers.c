@@ -8,22 +8,18 @@ void more_numbers(void)
 int li = 0;
 int n;
 
-while (li < 10)
+while (li <= 9)
 {
-
-n = 0;
-while (n <= 14)
-{
-if(n > 9)
-{
-_putchar(n / 10);
-}  
-_putchar(n % 10);
-n++;
-}
-
-_putchar('\n');
 li++;
 
+for (n = 0; n <= 14; n++)
+{
+if (n >= 10)
+{
+_putchar((n / 10) + '0');
+}
+_putchar((n % 10) + '0');
+}
+_putchar('\n');
 }
 }
