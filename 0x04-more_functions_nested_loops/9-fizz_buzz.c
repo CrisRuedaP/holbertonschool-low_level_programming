@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - print number from 1 to 100 Fizz-Buzz 
+ * main - FizzBuzz
  *
  * Return: 0 always
  */
 int main(void)
 {
+
 int x;
 
 for (x = 1; x <= 100; x++)
@@ -29,7 +30,7 @@ printf("%d", x);
 }
 if (x != 100)
 {
-printf(" "); 
+printf(" ");
 }
 }
 printf("\n");
