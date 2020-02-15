@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * print numbers - 1 to 100
- * void: - variable declaration
+ * main - print numbers 1 to 100
+ *
+ * void - variable declaration void
  *
  * Return: Always 0
  */
