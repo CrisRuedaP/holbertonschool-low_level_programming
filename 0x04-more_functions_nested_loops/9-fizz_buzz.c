@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - Entry point print numbers 1 to 100
+ * main - Entry point - print number from 0 to 100
+ * 
+ * Description - print numbers from 0 to 100
  *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
