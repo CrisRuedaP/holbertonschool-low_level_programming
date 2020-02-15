@@ -1,10 +1,11 @@
 #include <stdio.h>
+
 /**
- * main - print numbers 1 to 100
+ * main - Entry point print numbers 1 to 100
  *
- * void - variable declaration void
+ * variable declaration void
  *
- * Return: Always 0
+ * Return: 0
  */
 int main(void)
 {
