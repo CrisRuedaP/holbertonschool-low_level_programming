@@ -3,8 +3,6 @@
 /**
  * main - Entry point print numbers 1 to 100
  *
- * variable declaration void
- *
  * Return: 0
  */
 int main(void)
