@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _rev - reverses a string
+ * rev_string - reverses a string
  * @s: string
  * Return: nothing.
  */
@@ -14,7 +14,8 @@ for (i = 0; s[i] != 0; i++)
 {
 }
 
-f = 0; i = i - 1;
+f = 0;
+i = i - 1;
 while (f < i)
 {
 tmp = s[i];
