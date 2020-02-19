@@ -1,10 +1,10 @@
 #include "holberton.h"
 
 /**
- * _strcpy - copies a string pointed to by src
+ * *_strcpy - copy a string pointed to by src
  * @dest: string
  * @src: string
- * Return: result.
+ * Return: pointer to dest.
  */
 char *_strcpy(char *dest, char *src)
 {
@@ -14,5 +14,5 @@ for (i = 0; src[i] != '\0'; i++)
 dest[i] = src[i];
 dest[i] = '\0';
 
-return dest;
+return (dest);
 }
