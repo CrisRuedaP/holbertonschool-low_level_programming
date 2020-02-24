@@ -2,7 +2,7 @@
 
 /**
  * main - print to 98
- *
+ * @n: numbers
  * Return: 0 always
  */
 
