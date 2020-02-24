@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _memset - fill the memory whit a constant byte.
+ * _memcpy - copy memory area.
  * @dest: destiny
  * @src: memory area
  * @n: bytes
