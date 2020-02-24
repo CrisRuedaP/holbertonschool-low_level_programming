@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdio.h>
+#define NULL 0
 
 /**
  * _strchr - locate a character in a string.
@@ -18,5 +18,10 @@ return (s);
 }
 s++;
 }
+if (c == '\0')
+{
+return (s);
+}
+else
 return (NULL);
 }
