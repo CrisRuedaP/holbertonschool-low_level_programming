@@ -2,7 +2,7 @@
 
 /**
  * _memset - fill the memory whit a constant byte.
- * @dest: destiny 
+ * @dest: destiny
  * @src: memory area
  * @n: bytes
  * Return: a pointer to dest.
