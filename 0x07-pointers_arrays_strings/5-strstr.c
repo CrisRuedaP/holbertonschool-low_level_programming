@@ -1,10 +1,12 @@
 #include "holberton.h"
 #define NULL 0
 /**
- * _strstr - takes two strings as an argument and finds the first occurrence of the substring in the string.
+ * _strstr - takes two strings as an argument
+ * and finds the first occurrence of the substring in the string.
  * @haystack: string
  * @needle: substring
- * Return: a pointer points to the first character of the found else return NULL
+ * Return: a pointer points to the first
+ * character of the found else return NULL
  */
 char *_strstr(char *haystack, char *needle)
 {
