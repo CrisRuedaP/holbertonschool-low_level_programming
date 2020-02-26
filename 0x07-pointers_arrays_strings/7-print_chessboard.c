@@ -2,7 +2,7 @@
 
 /**
  * print_chessboard - function man
- * @a: string
+ * @a: array
  * Return: always 0
  */
 
