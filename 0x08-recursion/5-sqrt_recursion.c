@@ -2,26 +2,26 @@
 
 /**
  * find_sqrt - program to find floor
- * @n: number
- * @nb: base number
+ * @x: number
+ * @y: number
  *
  * Return: always 0
  */
 
-int find_sqrt(int n, int nb)
+int find_sq(int x, int y)
 {
 
-if (n * n == nb)
-return (n);
-
-if (n * n > nb)
+if (x == (y * y))
 {
-return (-1);
+return (y);
 }
-return (find_sqrt(i + 1, nb));
 
-
-#include "holberton.h"
+if (x < (y * y))
+{
+return (-1); 
+}
+return (find_sq (x, y + 1));
+}
 
 /**
  * _sqrt_recursion - square root of a number.
@@ -33,14 +33,18 @@ return (find_sqrt(i + 1, nb));
 int _sqrt_recursion(int n)
 {
 
-if (n < 0)
+if (n == 0)
+{
+return (0);
+}
+
+else if (n < 0)
 {
 return (-1);
 }
-if (n == 0)
-}
-return (0);
+
+else
 {
-return (find_sqrt(2, n, n));
+return (find_sq(n, 1));
 }
 }
