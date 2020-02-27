@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * find_sqrt - program to find floor
- * @x: number
- * @y: number
+ * find_sq - function to find square root
+ * @x: number to return
+ * @y: base number
  *
- * Return: always 0
+ * Return: square root or 1 if not found square root.
  */
 
 int find_sq(int x, int y)
@@ -18,16 +18,16 @@ return (y);
 
 if (x < (y * y))
 {
-return (-1); 
+return (-1);
 }
-return (find_sq (x, y + 1));
+return (find_sq(x, y + 1));
 }
 
 /**
  * _sqrt_recursion - square root of a number.
- * @n: number
+ * @n: given number
  *
- * Return: always 0
+ * Return: square root
  */
 
 int _sqrt_recursion(int n)
