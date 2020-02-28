@@ -9,3 +9,5 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int find_sq(int x, int y);
 int find_pn(int n, int i);
+int _strlen(char *s);
+int cmp_str(char *s, char *s2);
