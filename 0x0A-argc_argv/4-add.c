@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
- * main - function that multiplies two numbers.
+ * main - function that add positive numbers.
  * @argc: number of arguments.
  * @argv: array of character pointers
  *
- * Return: 0 or 1 if does not receive two arguments.
+ * Return: Error, 0 or 1.
  */
 
 int main(int argc, char *argv[])
