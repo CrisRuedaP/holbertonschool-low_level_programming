@@ -20,7 +20,7 @@ for (i = 0; str[i] != '\0'; i++)
 {
 i++;
 }
- str2 = malloc((i + 1) * sizeof(char));
+str2 = malloc(i * sizeof(char));
 if (str2 == NULL)
 return (NULL);
 
@@ -30,6 +30,6 @@ str2[len] = str[len];
 len++;
 }
 
-str2[i + 1] = '\0';
+str2[i] = '\0';
 return (str2);
 }
