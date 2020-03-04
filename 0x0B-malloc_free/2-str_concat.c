@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *_str_concat - copy of the string given as a parameter.
- * @s1: string1.
+ * *str_concat - concatenates two strings.
+ * @s1: string1
  * @s2: string2
  * Return: a pointer to a newly allocated space in memory.
  */
@@ -12,7 +12,7 @@ char *str_concat(char *s1, char *s2)
 int i, j, size1 = 0, size2 = 0;
 char *s3;
 
-if (s1 == 0) 
+if (s1 == 0)
 s1 = "";
 
 if (s2 == 0)
@@ -32,10 +32,10 @@ s3 = malloc((size1 + size2 + 1) * sizeof(char));
 if (s3 == NULL)
 return (NULL);
 
-for(i = 0; i < size1; i++)
+for (i = 0; i < size1; i++)
 s3[i] = s1[i];
 
-for(j = 0; j < size2; j++, i++)
+for (j = 0; j < size2; j++, i++)
 s3[i] = s2[j];
 
 
