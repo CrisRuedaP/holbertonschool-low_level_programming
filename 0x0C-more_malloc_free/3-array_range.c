@@ -24,6 +24,5 @@ for (i = 0; i <= value; i++)
 {
 pint[i] = min++;
 }
-pint[i] = '\0';
 return (pint);
 }
