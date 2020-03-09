@@ -15,7 +15,7 @@ char *owner;
 
 };
 
-typedef struct dog cat;
+typedef struct dog;
 int _putchar(char c);
 
 #endif
