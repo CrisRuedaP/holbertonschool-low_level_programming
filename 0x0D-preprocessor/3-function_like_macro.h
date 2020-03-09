@@ -1,4 +1,4 @@
-#ifndef ABSOLUTE_VALUE
-#define ABSOLUTE_VALUE
+#ifndef ABSOLUTE
+#define ABSOLUTE
 #define ABS(x) ((x >= 0) ? (x) : (x * -1))
 #endif
