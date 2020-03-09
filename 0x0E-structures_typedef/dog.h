@@ -1,10 +1,10 @@
 #ifndef DOG_H_
 #define DOG_H_
 /**
- * struct - check the code for Holberton School students.
- * @name - dog name
- * @age - age dog
- * @owner - owner dog
+ * struct dog - struct dog.
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
  * Return: always 0.
  */
 struct dog
