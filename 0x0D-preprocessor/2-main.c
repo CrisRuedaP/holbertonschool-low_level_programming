@@ -1,8 +1,7 @@
-#include "holberton.h"
 #include <stdio.h>
-#include <stdlib.h>
+#include "holberton.h"
 /**
- * main - principal function
+ * main - check the code for Holberton School students.
  *
  * Return: always 0.
  */
