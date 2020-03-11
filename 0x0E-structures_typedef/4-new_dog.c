@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include "dog.h"
 /**
- * print_dog - struct dog.
- * @d: pointer to structure
- * Return: Print element or if is NULL print nill.
+ * new_dog - struct dog.
+ * @name: dog name
+ * @age: dog age
+ * @owner: dog owner
+ * Return: new dog.
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
