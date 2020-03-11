@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "dog.h"
+
 /**
- * *new_dog - struct dog.
+ * new_dog - struct dog.
  * @name: dog name
  * @age: dog age
  * @owner: dog owner
