@@ -4,6 +4,7 @@
  * print_name - prints a name.
  * @name: parameter char type
  * @f: function
+ * return: void
  */
 
 void print_name(char *name, void (*f)(char *))
