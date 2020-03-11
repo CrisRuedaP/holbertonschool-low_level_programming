@@ -1,5 +1,6 @@
 #include "function_pointers.h"
 #include <stdio.h>
+#include <stlib.h>
 /**
  * print_name - prints a name.
  * @name: parameter char type
