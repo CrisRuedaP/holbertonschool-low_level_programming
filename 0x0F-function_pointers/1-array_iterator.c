@@ -3,8 +3,9 @@
 #include <stdlib.h>
 /**
  * array_iterator - prints a name.
- * @name: parameter char type
- * @f: function
+ * @array: array
+ * @size: unsigned long
+ * @action: a pointer to the function
  * return: void
  */
 void array_iterator(int *array, size_t size, void (*action)(int))
