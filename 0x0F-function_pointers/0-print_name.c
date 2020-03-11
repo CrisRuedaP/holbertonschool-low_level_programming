@@ -19,7 +19,4 @@ return;
 
 f(name);
 
-/*void (*pfn)(char *);
-pfn = f;
-pfn(name);*/
 }
