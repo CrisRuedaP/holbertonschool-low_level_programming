@@ -1,0 +1,1 @@
+Function pointers - A function points to code not data. Store the starting address or entry point.
