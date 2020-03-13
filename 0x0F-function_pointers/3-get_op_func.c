@@ -21,14 +21,13 @@ op_t ops[] = {
 };
 int i = 0;
 
-while (ops[i].op)
+while (i < 5)
 {
-if (strcmp(s, ops[i].op))
+if (s == ops[i].op)
 {
-i++;
-}
 return (ops[i].f);
 }
-printf("Error\n");
-exit(99);
+i++;
+}
+return (NULL);
 }
