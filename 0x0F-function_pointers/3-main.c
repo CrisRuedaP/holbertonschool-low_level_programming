@@ -10,8 +10,6 @@
 int main(int argc, char *argv[])
 {
 int a, b, result;
-char *operator;
-int (*ptr)(int, int);
 
 while (argc != 4)
 {
@@ -25,9 +23,7 @@ exit(99);
 
 a = atoi(argv[1]);
 b = atoi(argv[3]);
-operator = argv[2];
-ptr = get_op_func(operator);
-result = (*ptr)(a, b);
+result = get_op_func(argv[2])(a, b);
 
 printf("%d\n", result);
 return (0);
