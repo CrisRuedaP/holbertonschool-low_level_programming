@@ -18,6 +18,7 @@ va_start(args, format);
 while (format == '\0')
 {
 printf("\n");
+return;
 }
 while (format[i] != '\0')
 {
