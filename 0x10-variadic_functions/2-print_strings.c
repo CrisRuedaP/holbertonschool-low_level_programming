@@ -14,9 +14,6 @@ unsigned int i;
 va_list args;
 char *str;
 
-if (separator == NULL)
-printf("\n");
-
 va_start(args, n);
 for (i = 0; i < n; i++)
 {
@@ -30,7 +27,7 @@ printf("%s", str);
 
 if (separator != NULL)
 {
-if (i < (n - 1))      
+if (i < (n - 1))
 printf("%s", separator);
 }
 }
