@@ -6,7 +6,7 @@
  * print_numbers - function that prints numbers.
  * @separator: pointer
  * @n: integer
- * return: void
+ * Return: void
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
@@ -15,6 +15,7 @@ va_list args;
 
 if (separator == NULL)
 printf("\n");
+return;
 
 va_start(args, n);
 for (i = 0; i < n; i++)
