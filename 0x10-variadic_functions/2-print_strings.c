@@ -6,7 +6,7 @@
  * print_strings - function that prints numbers.
  * @separator: pointer
  * @n: integer
- * return: void
+ * Return: void
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
@@ -25,12 +25,10 @@ printf("(nil)\n");
 else
 printf("%s", str);
 
-if (separator != NULL)
-{
-if (i < (n - 1))
+if (i < (n - 1) && separator != NULL)
 printf("%s", separator);
 }
-}
+
 va_end(args);
 printf("\n");
 }
