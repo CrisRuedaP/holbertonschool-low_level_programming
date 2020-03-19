@@ -1,6 +1,5 @@
 #include "lists.h"
-#include <stdlib.h>
-#include <stdio.h>
+
 /**
  * print_list - print all elements of a list.
  * @h: list of elements
@@ -14,7 +13,7 @@ count = 0;
 
 while (h != NULL)
 {
-if (h->str == NULL) 
+if (h->str == NULL)
 printf("[0] (nil)\n");
 
 else
