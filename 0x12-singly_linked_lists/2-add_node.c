@@ -17,7 +17,7 @@ return (len);
 
 }
 /**
- * print_list - print all elements of a list.
+ * add_node - print all elements of a list.
  * @head: beginning of the list
  * @str: needs to be duplicated
  * Return: the address of the new element
