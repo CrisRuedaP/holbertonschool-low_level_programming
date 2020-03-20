@@ -13,4 +13,5 @@ if (head != NULL)
 free(head->str);
 free(head);
 }
+head = NULL;
 }
