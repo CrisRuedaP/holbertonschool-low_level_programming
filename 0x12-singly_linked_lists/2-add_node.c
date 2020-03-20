@@ -1,6 +1,21 @@
 #include "lists.h"
-#include <stdio.h>
-#include <string.h>
+#include<string.h>
+/**
+ * _strlen - return the length of a string
+ * @s: string
+ * Return: result.
+ */
+int _strlen(const char *s)
+{
+int len = 0;
+
+while (s[len] != '\0')
+
+len++;
+
+return (len);
+
+}
 /**
  * print_list - print all elements of a list.
  * @head: beginning of the list
@@ -15,7 +30,7 @@ if (new_nodo == NULL)
 return (NULL);
 
 new_nodo->str = strdup(str);
-new_nodo->len = strlen(str);
+new_nodo->len = _strlen(str);
 new_nodo->next = *head;
 *head = new_nodo;
 
