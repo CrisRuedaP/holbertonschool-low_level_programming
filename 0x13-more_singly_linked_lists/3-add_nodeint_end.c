@@ -1,9 +1,9 @@
 #include "lists.h"
 #include <string.h>
 /**
- * add_node_end - add a new node at the end of a list.
+ * add_nodeint_end - add a new node at the end of a list.
  * @head: beginning of the list
- * @str: needs to be duplicated
+ * @n: new element
  * Return: the address of the new element
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
