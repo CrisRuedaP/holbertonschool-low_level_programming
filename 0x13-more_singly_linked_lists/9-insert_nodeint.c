@@ -31,6 +31,7 @@ tmp = *head;
 while (position < idx - 1)
 {
 tmp = tmp->next;
+position++;
 if (tmp == NULL)
 {
 free(new_node);
