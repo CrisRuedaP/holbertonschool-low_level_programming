@@ -6,9 +6,9 @@
  *
  * Return: number of bits to be flipped
  */
-int countSetBits(int n)
+unsigned int countSetBits(unsigned long int n)
 {
-int count = 0;
+unsigned int count = 0;
 while (n)
 {
 count += (n & 1);
