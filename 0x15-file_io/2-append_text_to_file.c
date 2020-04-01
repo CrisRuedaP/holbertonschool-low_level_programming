@@ -12,6 +12,9 @@ int file = 0, size, i = 0;
 if (filename == NULL)
 return (-1);
 
+if (text_content == NULL)
+return (1);
+
 file = open(filename, O_WRONLY | O_APPEND);
 if (file == -1)
 return (-1);
