@@ -18,7 +18,7 @@ exit(97);
 fd_from = open(argv[1], O_RDONLY);
 if (fd_from == -1)
 {
-dprintf(STDERR_FILENO, "Error: Can't read from %s\n", argv[1]);
+dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 exit(98);
 }
 
@@ -38,7 +38,7 @@ exit(99);
 }
 if (nbytes == -1)
 {
-dprintf(STDERR_FILENO, "Error: Can't read to %s\n", argv[2]);
+dprintf(STDERR_FILENO, "Error: Can't read to %s\n", argv[1]);
 exit(98);
 }
 if (close(fd_from) == -1 || close(fd_to) == -1)
