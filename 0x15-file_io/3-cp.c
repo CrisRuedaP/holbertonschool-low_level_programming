@@ -7,7 +7,7 @@
  */
 int main(int argc, char *argv[])
 {
-int fd_from, fd_to, nbytes;
+int fd_from, fd_to, size;
 char buffer[1024];
 
 if (argc != 3)
@@ -28,15 +28,15 @@ if (fd_to == -1)
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 exit(99);
 }
-while ((nbytes = read(fd_from, buffer, 1024)) > 0)
+while ((size = read(fd_from, buffer, 1024)) > 0)
 {
-if (write(fd_to, buffer, nbytes) != nbytes)
+if (write(fd_to, buffer, size) != size)
 {
 dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 exit(99);
 }
 }
-if (nbytes == -1)
+if (size == -1)
 {
 dprintf(STDERR_FILENO, "Error: Can't read to %s\n", argv[1]);
 exit(98);
