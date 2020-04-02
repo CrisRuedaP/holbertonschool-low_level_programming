@@ -38,7 +38,7 @@ exit(99);
 }
 if (nbytes == -1)
 {
-dprintf(STDERR_FILENO, "Error: Can't read to %s\n", argv[1]);
+dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 exit(98);
 }
 if (close(file_from) == -1 || close(file_to) == -1)
