@@ -13,4 +13,5 @@ int _putchar(char c);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 /*int countSetBits(int n);*/
 unsigned int countSetBits(unsigned long int n);
+int get_endianness(void);
 #endif
